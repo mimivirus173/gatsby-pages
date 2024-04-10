@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <main>
       <Layout pageTitle="About Me">
-        <p>I am the</p>
+        <p>I am the creator of this website.</p>
       </Layout>
     </main>
   )
