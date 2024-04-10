@@ -13,6 +13,7 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
       }
     },
     "gatsby-plugin-mdx",
