@@ -28,6 +28,7 @@ const BlogPage = ({ data }) => {
         nodes {
             frontmatter {
               title
+              slug
               date
             }
             id
