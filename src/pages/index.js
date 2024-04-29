@@ -12,6 +12,7 @@ const IndexPage = () => {
         <StaticImage
         alt="dog"
         src="../images/dog.jpg"
+        title="dog"
         />
       </Layout>
     </main>

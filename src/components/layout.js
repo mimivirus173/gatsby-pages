@@ -46,6 +46,10 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+      <br />
+      <Link to="https://mimivirus173.github.io" className={navLinkText}>
+        Back to homepage
+      </Link>
     </div>
   )
 }
